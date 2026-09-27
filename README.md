@@ -6,7 +6,7 @@
 
 ## News
 
-- 🎉 **PhysElite has been accepted to NeurIPS 2026!**
+- 🎉 **PhysElite has been accepted to NeurIPS 2026 ED track!**
 
 ## Overview
 
