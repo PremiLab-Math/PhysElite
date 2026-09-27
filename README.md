@@ -10,7 +10,7 @@
 
 ## Overview
 
-PhysElite is a bilingual, multimodal benchmark for evaluating Olympiad-level physics reasoning in large language models. It includes **11,586 problems**, with visual diagrams, Chinese-English solution derivations, and final answers.
+PhysElite is a bilingual, multimodal benchmark for evaluating Olympiad-level physics reasoning in large language models. It includes **10K+ problems**, with visual diagrams, Chinese-English solution derivations, and final answers.
 
 The paper evaluates 18 open-source and closed-source multimodal large language models. The strongest evaluated model achieves **33.7% answer accuracy**, highlighting the challenge of advanced physics reasoning. Step-level evaluation further examines where models make mistakes during their solutions.
 
