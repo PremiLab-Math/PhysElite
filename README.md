@@ -3,6 +3,7 @@
 [![Paper](https://img.shields.io/badge/Paper-arXiv%3A2608.25097-b31b1b)](https://arxiv.org/abs/2608.25097)
 [![Dataset](https://img.shields.io/badge/Dataset-Hugging%20Face-FFD21E)](https://huggingface.co/datasets/physelite/PhysElite)
 ![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-684FA3)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit)
 
 ## News
 
