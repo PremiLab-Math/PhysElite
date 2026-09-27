@@ -1,5 +1,3 @@
-# PhysElite
-
 ### How Far Are LLMs from Solving Olympiad-Level Physics Problems?
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv%3A2608.25097-b31b1b)](https://arxiv.org/abs/2608.25097)
@@ -16,10 +14,6 @@ PhysElite is a bilingual, multimodal benchmark for evaluating Olympiad-level phy
 
 The paper evaluates 18 open-source and closed-source multimodal large language models. The strongest evaluated model achieves **33.7% answer accuracy**, highlighting the challenge of advanced physics reasoning. Step-level evaluation further examines where models make mistakes during their solutions.
 
-## Resources
-
-- **Paper:** [PhysElite: How Far Are LLMs from Solving Olympiad-Level Physics Problems?](https://arxiv.org/abs/2608.25097)
-- **Dataset:** [physelite/PhysElite on Hugging Face](https://huggingface.co/datasets/physelite/PhysElite)
 
 ## Citation
 
