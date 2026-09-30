@@ -5,9 +5,6 @@
 ![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-684FA3)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit)
 
-## News
-
-- 🎉 **PhysElite has been accepted to NeurIPS 2026 ED track!**
 
 ## Overview
 
