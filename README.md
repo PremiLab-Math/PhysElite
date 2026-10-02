@@ -1,22 +1,25 @@
 ### How Far Are LLMs from Solving Olympiad-Level Physics Problems?
-
 [![Paper](https://img.shields.io/badge/Paper-arXiv%3A2608.25097-b31b1b)](https://arxiv.org/abs/2608.25097)
 [![Dataset](https://img.shields.io/badge/Dataset-Hugging%20Face-FFD21E)](https://huggingface.co/datasets/physelite/PhysElite)
 ![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-684FA3)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit)
 
-
 ## Overview
-
 PhysElite is a bilingual, multimodal benchmark for evaluating Olympiad-level physics reasoning in large language models. It includes **10K+ problems**, with visual diagrams, Chinese-English solution derivations, and final answers.
-
 The paper evaluates 18 open-source and closed-source multimodal large language models. The strongest evaluated model achieves **33.7% answer accuracy**, highlighting the challenge of advanced physics reasoning. Step-level evaluation further examines where models make mistakes during their solutions.
 
+## Accessing the dataset
+The benchmark data is hosted on [Hugging Face](https://huggingface.co/datasets/physelite/PhysElite). Its dataset viewer shows the available fields and lets you inspect examples before downloading. You can load it with the Hugging Face `datasets` library:
+
+```python
+from datasets import load_dataset
+
+physelite = load_dataset("physelite/PhysElite")
+print(physelite)
+```
 
 ## Citation
-
 If you use PhysElite in your research, please cite:
-
 ```bibtex
 @misc{xu2026physelite,
   title         = {PhysElite: How Far Are LLMs from Solving Olympiad-Level Physics Problems?},
@@ -28,4 +31,3 @@ If you use PhysElite in your research, please cite:
   url           = {https://arxiv.org/abs/2608.25097}
 }
 ```
-
