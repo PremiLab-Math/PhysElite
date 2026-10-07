@@ -1,4 +1,4 @@
-### How Far Are LLMs from Solving Olympiad-Level Physics Problems?
+# How Far Are LLMs from Solving Olympiad-Level Physics Problems?
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv%3A2608.25097-b31b1b)](https://arxiv.org/abs/2608.25097)
 [![Dataset](https://img.shields.io/badge/Dataset-Hugging%20Face-FFD21E)](https://huggingface.co/datasets/physelite/PhysElite)
