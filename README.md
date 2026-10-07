@@ -19,6 +19,7 @@ The paper evaluates 18 open-source and closed-source multimodal large language m
 
 | Rank | Model | Answer ↑ | Process ↑ | Mech. | E&M | Mod. | Therm. | Opt. |
 | ---: | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| — | Human baseline | 48.5 | 65.2 | 47.6 | 42.3 | 54.2 | 51.7 | 57.3 |
 | 🥇 1 | Grok-4.2 † | **33.7** | 47.6 | **34.0** | **26.6** | **33.0** | **35.4** | **25.4** |
 | 🥈 2 | Claude-Opus-4.6 | 28.1 | **49.6** | 27.2 | 20.9 | 24.7 | 33.1 | 21.3 |
 | 🥉 3 | o3-mini †⋆ | 26.2 | 43.9 | 25.3 | 20.4 | 26.8 | 28.4 | 19.6 |
@@ -37,7 +38,6 @@ The paper evaluates 18 open-source and closed-source multimodal large language m
 | 16 | Dolphin-Mistral-24B | 8.6 | 20.6 | 6.1 | 7.5 | 10.1 | 9.9 | 7.0 |
 | 17 | LLaMA-3.1-70B ⋆ | 7.5 | 20.2 | 4.9 | 6.0 | 10.5 | 7.9 | 6.6 |
 | 18 | Qwen2.5-VL-7B | 1.7 | 3.7 | 2.4 | 0.5 | 0.7 | 2.0 | 0.5 |
-| — | Human baseline | 48.5 | 65.2 | 47.6 | 42.3 | 54.2 | 51.7 | 57.3 |
 
 † Reasoning model evaluated with extended thinking. ⋆ Text-only model evaluated without diagram input.
 
