@@ -56,13 +56,12 @@ print(physelite)
 If you use PhysElite in your research, please cite:
 
 ```bibtex
-@misc{xu2026physelite,
-  title         = {PhysElite: How Far Are LLMs from Solving Olympiad-Level Physics Problems?},
-  author        = {Ruoran Xu and Wending Gao and Liyunfeng Chen and Aixin Shi and Haoyu Cheng and Zixiang Fang and Yiqiang Zou and Qiufeng Wang},
-  year          = {2026},
-  eprint        = {2608.25097},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.AI},
-  url           = {https://arxiv.org/abs/2608.25097}
+@inproceedings{
+anonymous2026physelite,
+title={PhysElite:  How Far Are {LLM}s from Solving Olympiad-Level Physics Problems?},
+author={Anonymous},
+booktitle={The Fortieth Annual Conference on Neural Information Processing Systems Evaluations and Datasets Track},
+year={2026},
+url={https://openreview.net/forum?id=f3ceI8ijyu}
 }
 ```
