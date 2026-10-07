@@ -5,12 +5,13 @@
 ![NeurIPS 2026](https://img.shields.io/badge/NeurIPS-2026-684FA3)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit)
 
-
+<!--
 ## Overview
 
 PhysElite is a bilingual, multimodal benchmark for evaluating Olympiad-level physics reasoning in large language models. It includes **10K+ problems**, with visual diagrams, Chinese-English solution derivations, and final answers.
 
 The paper evaluates 18 open-source and closed-source multimodal large language models. The strongest evaluated model achieves **33.7% answer accuracy**, highlighting the challenge of advanced physics reasoning. Step-level evaluation further examines where models make mistakes during their solutions.
+-->
 
 ## Leaderboard
 
