@@ -52,6 +52,46 @@ physelite = load_dataset("physelite/PhysElite")
 print(physelite)
 ```
 
+## Evaluation
+
+The evaluation code consists of three scripts: `data.py` loads the Hugging Face dataset, `inference.py` generates model responses, and `evaluate.py` judges answers and scores derivation steps.
+
+### Setup
+
+Python 3.9+ is required. From the repository root:
+
+```bash
+python -m pip install -r requirements.txt
+export OPENAI_API_KEY="your-api-key"
+# Optional: use an OpenAI-compatible endpoint
+# export OPENAI_BASE_URL="https://your-provider.example/v1"
+```
+
+### Run evaluation
+
+Replace `your-model` and `your-judge` with the model names supported by your API provider:
+
+```bash
+# 1. Generate responses
+python inference.py --model your-model --language en \
+  --output results/predictions.jsonl
+
+# 2. Judge final answers
+python evaluate.py answer --input results/predictions.jsonl \
+  --judge-model your-judge
+
+# 3. Score derivation steps using the answer judgments
+python evaluate.py process --input results/predictions.jsonl \
+  --judged-input results/judged/predictions__judged.jsonl \
+  --judge-model your-judge
+```
+
+Use `--language cn` for Chinese, `--no-images` for text-only models, or `--limit 10` for a small run. `--subset ids.txt` selects public problem IDs listed one per line. Inference sends the problem text and statement images; reference answers, solutions, and solution images are excluded from model input.
+
+The scripts load the `default` split directly from Hugging Face and reuse its download cache. Pass the same `--revision <Hub commit>` to all three commands to fix the dataset version. Run `python inference.py --help` or `python evaluate.py --help` for all options.
+
+Answer judgments and summaries are saved under `results/judged/`; process scores and summaries are saved under `results/process_judged/`. The default process score combines 30% final-answer score with 70% mean step score. Results are appended as JSONL, and existing problem IDs are skipped on resume, including failed records; use a new output file and the relevant subset to retry failures.
+
 ## Citation
 
 If you use PhysElite in your research, please cite:
